@@ -1,0 +1,125 @@
+.footerMain{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.footerLeftText{
+    color: rgba(255, 255, 255, 0.792);
+    font-size: 12px;
+}
+
+.footerIcons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.footerLeftText{
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+
+    line-height: 1.5;
+    margin-top: 3px;
+}
+
+
+.footerRightColumnHeading{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.footerRightColumnItems{
+    color: #b2b2b2;
+    font-size: 13px;
+    margin-top: 0px;
+}
+
+.footerRight{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 150px;
+    margin-left: -300px;
+}
+
+.rights{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    color: #b2b2b2;
+}
+
+.footerBottom{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footerLine {
+    width: 70%;
+    height: 1px;
+    background-color: #ccc; 
+    margin-bottom: 10px; 
+  }
+
+
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 1168px) {
+    .footerMain {
+        flex-direction: column; 
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footerIcons{
+        gap: 44px;
+    }
+
+    .footerLeft {
+        display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+        text-align: center;
+        justify-content: center;
+        gap: 18px;
+        margin-left: 0px;
+
+    }
+
+    .footerRightColumnHeading{
+        font-size: 14px;
+
+    }
+
+    .footerIcons{
+        justify-content: center;
+        gap: 40px
+    }
+
+    .footerRight {
+        display: flex;
+        /* width: 100%; */
+        text-align: left;
+        gap: 35px;
+        margin-left: 9px;
+
+    }
+
+    .rights{
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+        color: #b2b2b2;
+        font-size: 13px;
+    }
+}

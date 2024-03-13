@@ -1,0 +1,83 @@
+.someContentMain {
+    margin-top: 90px;
+    width: 100%;
+}
+
+.someContentTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-inline: 53px;
+}
+
+.someContentHeading {
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    margin-bottom: 5px;
+    margin-top: 9px;
+}
+
+.someContentParagraph {
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 1.5;
+}
+
+.someContentBottom {
+    margin-top: 18px;
+    text-align: center;
+    justify-content: center;
+}
+
+.blockchainpic {
+    height: 500px;
+    width: 1150px;
+}
+
+@media screen and (max-width: 1114px) {
+    .someContentHeading {
+        font-size: 30px;
+        margin-top: 5px; 
+        text-align: center;
+    }
+
+    .someContentTop {
+        flex-direction: column;
+    }
+
+    .someContentParagraph {
+        font-size: 12px;
+        margin-top: 10px; 
+        /* padding-inline: 100px; */
+        text-align: center;
+    }
+
+    .someContentParagraph br {
+        display: none; 
+    }
+
+    .blockchainpic {
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .someContentHeading {
+        font-size: 19px;
+        margin-top: 5px; 
+    }
+
+    .someContentParagraph {
+        font-size: 11px;
+        margin-top: 10px; 
+    }
+
+    .statsColumn:nth-last-child(-n+2) {
+        margin-bottom: 22px; 
+      }
+}

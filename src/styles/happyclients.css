@@ -1,0 +1,88 @@
+.clientsMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  width: 100%;
+
+}
+
+.clientsTop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.clientsHeading {
+  color: white;
+  font-size: 45px;
+  font-weight: 600;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  margin-bottom: 0px;
+}
+
+.clientsParagraph {
+  color: white;
+  font-size: 15px;
+  font-weight: 200;
+  text-align: center;
+  line-height: 1.5;
+  margin-top: 3px;
+}
+
+.clientsPic {
+  margin-top: -123px;
+}
+
+
+@media screen and (max-width: 1392px) {
+  .clientsPic {
+    margin-top: -50px;
+    width: 80%;
+  }
+
+  .clientsHeading {
+    font-size: 45px;
+    text-align: center;
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .clientsPic {
+    margin-top: -50px;
+    width: 80%;
+  }
+
+  .clientsHeading {
+    font-size: 25px;
+    text-align: center;
+
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .clientsPic {
+      margin-top: -50px;
+      width: 100%;
+  }
+
+  .clientsHeading {
+    font-size: 19px;
+    text-align: center;
+
+  }
+
+  .clientsTop{
+    padding-inline: 25px;
+
+  }
+
+  .clientsParagraph{
+    font-size: 11px;
+    padding-inline: 15px;
+    margin-bottom: 36px;
+  }
+}

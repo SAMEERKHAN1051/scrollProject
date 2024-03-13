@@ -1,0 +1,97 @@
+.heroMain {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+  }
+  
+  .blueText {
+    color: #210EFF;
+  }
+  
+  .topHeading {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  
+  .svgImage {
+    width: 170px;
+    margin-top: -60px;
+    cursor: pointer;
+  }
+  
+  .midDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .heroVideo img {
+    width: 80%;
+    height: auto;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .topHeading {
+      font-size: 40px;
+      margin-bottom: 2px;
+    }
+  
+    .svgImage {
+      width: 120px;
+    }
+
+    .midDiv{
+        margin-top: 45px;
+    }
+  
+    .heroMain {
+      margin-top: 20px;
+    }
+  }
+
+  @media screen and (max-width: 659px) {
+    .topHeading {
+      font-size: 30px;
+      margin-bottom: 2px;
+    }
+  
+    .svgImage {
+      width: 120px;
+    }
+
+    .midDiv{
+        margin-top: 45px;
+    }
+  
+    .heroMain {
+      margin-top: 50px;
+    }
+  }
+  
+
+  @media screen and (max-width: 480px) {
+    .topHeading {
+      font-size: 20px;
+      margin-bottom: 2px;
+    }
+  
+    .svgImage {
+      width: 120px;
+    }
+
+    .midDiv{
+        margin-top: 45px;
+    }
+  
+    .heroMain {
+      margin-top: 50px;
+    }
+  }
+  
+  
+
+  

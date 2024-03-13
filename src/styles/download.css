@@ -1,0 +1,94 @@
+.downloadMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.downloadInner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0E056C;
+    height: auto;
+    width: 75%;
+    border-radius: 20px;
+}
+
+.downloadHeading{
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    margin-bottom: 5px;
+    margin-top: 80px;
+
+}
+
+
+
+.downloadSecHeading{
+    color: white;
+    font-size: 45px;
+    font-weight: 300;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+.downloadParagraph{
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.downloadBottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.downloadButton{
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.secImage{
+    cursor: pointer;
+}
+.firstImage{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .downloadInner {
+        padding: 20px; 
+        width: 90%;
+        border-radius: 0px;
+    }
+
+    .downloadHeading {
+        font-size: 25px;
+    }
+
+    .downloadSecHeading {
+        font-size: 25px;
+    }
+
+    .downloadParagraph {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .firstImage, .secImage {
+        width: 120px;
+    }
+    
+}

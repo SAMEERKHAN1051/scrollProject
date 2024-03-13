@@ -1,0 +1,159 @@
+.mainNav{
+    margin-top: 15px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.logoText {
+    font-family: 'Syne', sans-serif;
+    color: white;
+    font-size: 28px;
+    cursor: pointer; 
+
+}
+
+
+
+.navList{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.navItems{
+  cursor: pointer; 
+
+}
+
+
+
+.navContactBtn{
+    height: 45px; 
+    width: 128px;
+    font-size: 16px;
+    background-color: #2d4879; 
+    color: white; 
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer; 
+    display: inline-block; 
+    text-align: center; 
+    line-height: 40px;
+    text-decoration: none; 
+    transition: background-color 0.3s ease; 
+}
+
+.navContactBtn:hover{
+    background-color: #21365d;
+}
+
+
+.navAppBtn{
+    height: 45px; 
+    width: 128px;
+    font-size: 16px;
+    background-color: #210EFF; 
+    color: white; 
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer; 
+    display: inline-block; 
+    text-align: center; 
+    line-height: 40px;
+    text-decoration: none; 
+    transition: background-color 0.3s ease; 
+}
+
+.navAppBtn:hover{
+    background-color: #1606c9;
+}
+
+.menuIcon {
+    display: none; 
+  }
+  
+  @media screen and (max-width: 768px) {
+    .menuIcon {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .navList {
+      display: none;
+      flex-direction: column;
+      position: fixed; /* Change position to fixed */
+      top: 60px;
+      right: 0;
+      width: 100vw; /* Set width to 100vw */
+      background-color: #18253E;
+      padding: 10px;
+      z-index: 1;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      font-size: 14px;
+
+    }
+  
+    .mainNav .navList.showMenu {
+      display: flex;
+      opacity: 1;
+      gap:18px;
+
+    }
+  
+    .navItems {
+      /* margin-bottom: 10px; */
+      margin-top: 10px;
+    }
+  
+    .mainNav {
+      align-items: center;
+      height: 42px;
+      margin-top: 23px;
+    }
+
+
+    .navContactBtn {
+      height: 32px;
+      width: 83px;
+      font-size: 12px;
+      background-color: #2d4879;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      display: inline-block;
+      text-align: center;
+      line-height: 30px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+  }
+
+  .navAppBtn {
+    height: 32px;
+    width: 83px;
+    font-size: 12px;
+    background-color: #210EFF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-bottom: 15px;
+}
+
+
+  }
+  
+  

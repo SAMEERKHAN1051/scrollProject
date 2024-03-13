@@ -1,0 +1,154 @@
+.moreContentMain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    width: 100%;
+}
+
+.moreContentRight, .moreContentLeft{
+    padding: 34px
+}
+
+.moreContentHeading{
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    margin-bottom: 5px;
+
+}
+
+.moreContentParagraph{
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+
+
+@media screen and (min-width: 776px) and (max-width: 1300px) {
+    .moreContentMain {
+      flex-direction: column;
+    }
+  
+    .moreContentPic{
+        width: 800px;
+    }
+
+    .moreContentHeading{
+        color: white;
+        font-size: 55px;
+        font-weight: 600;
+        font-family: 'Bricolage Grotesque', sans-serif;
+        margin-bottom: 5px;
+    
+    }
+    
+    .moreContentParagraph{
+        color: white;
+        font-size: 18px;
+        font-weight: 200;
+    }
+    
+  }
+
+
+
+
+@media screen and (min-width: 564px) and (max-width: 886px) {
+    .moreContentMain {
+      flex-direction: column;
+    }
+  
+    .moreContentPic{
+        width: 500px;
+    }
+    .moreContentHeading{
+        font-size: 35px;
+        text-align: center;
+
+    }
+
+    .moreContentParagraph{
+        text-align: center;
+
+    }
+  }
+
+
+  @media screen and (min-width: 490px) and  (max-width: 564px) {
+    .moreContentMain {
+      flex-direction: column;
+    }
+  
+    .moreContentPic{
+        width: 400px;
+    }
+
+    .moreContentHeading{
+        font-size: 25px;
+        text-align: center;
+
+    }
+
+    .moreContentParagraph{
+        text-align: center;
+
+    }
+  }
+
+  @media screen and (min-width: 426px) and  (max-width: 490px) {
+    .moreContentMain {
+      flex-direction: column;
+    }
+  
+    .moreContentPic{
+        width: 350px;
+    }
+
+    .moreContentHeading{
+        font-size: 25px;
+        text-align: center;
+
+    }
+
+    .moreContentParagraph{
+        text-align: center;
+
+    }
+
+    .br-md {
+        display: none;
+      }
+  }
+
+
+  @media screen and  (max-width: 426px) {
+    .moreContentMain {
+      flex-direction: column;
+    }
+  
+    .moreContentPic{
+        width: 320px;
+    }
+
+    .moreContentHeading{
+        font-size: 19px;
+        text-align: center;
+
+
+    }
+
+    .moreContentParagraph{
+        text-align: center;
+        font-size: 11px;
+
+    }
+
+    .br-md {
+        display: none;
+      }
+  }
+
